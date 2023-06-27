@@ -1,4 +1,4 @@
-import './index.css';
-import CookieConsent from "./src/CookieConsent";
+import "./index.css";
+import initApp from "./src/app";
+initApp();
 
-new CookieConsent(".cookie-consent");
